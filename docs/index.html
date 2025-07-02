@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="ReDrug-KG Tutorial for ACM womENcourage 2025™" />
+    <meta name="author" content="Matilde Pato" />
+    <title>ReDrug-KG</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body id="page-top">
+
+    <!-- Back to top button -->
+    <a id="button"></a>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <img src="assets/img/logos/isel_logo_branco.png" alt="..." class="logo" />
+                <img src="assets/img/logos/fit_logo_branco.png" alt="..." class="logo logo-secondary" /></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars ml-1"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ml-auto">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#schedule">Schedule</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#slides">Slides</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Team</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead">
+        <div class="container">
+            <div class="masthead-subheading">Welcome To ReDrug-KG!</div>
+            <div class="masthead-heading text-uppercase">Messy data to Explainable Drug repurposing via Knowledge Graphs
+            </div>
+            <div class="masthead-subheading">Tutorial at ACM womENcourage™ 2025</div>
+            <h4>Brașov, Romania, September 17-19, 2025</h4>
+            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#about">More</a>
+        </div>
+    </header>
+    <!-- Description-->
+    <section class="page-section" id="about">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">about</h2>
+                <h3 class="section-subheading text-muted">From Messy Data to Medical Insights: This tutorial
+                    demonstrates <b>data wrangling techniques</b> specifically designed for biomedical data challenges -
+                    transforming fragmented pharmaceutical data into <b>Knowledge Graphs</b> that reveal hidden
+                    relationships between drugs, diseases, and biological mechanisms.</h3>
+            </div>
+            <div class="row text-justify">
+                <div class="col-md-14">
+                    <p class="text-muted">Traditional tabular data structures fail to capture the complex,
+                        interconnected relationships that are crucial for understanding drug mechanisms and disease
+                        pathways. Pharmaceutical information scattered across multiple databases, formats, and
+                        terminologies makes it difficult to identify potential therapeutic connections using
+                        conventional approaches.</p>
+                    <p class="text-muted">This tutorial introduces our <a
+                            href="https://github.com/matpato/MedJsonify.git">'MedJsonify'</a> methodology - a
+                        Python-based framework that simplifies the process of wrangling and integrating data from
+                        diverse pharmaceutical sources. Participants will learn practical techniques for entity
+                        resolution across multiple data sources, handling medical terminology inconsistencies, and
+                        creating knowledge representations that support novel drug discovery insights.</p>
+                    <p class="text-muted">Using prepared datasets derived from public resources like DailyMed, Purple
+                        Book, Orange Book, and ontologies from DrugBank, DO, ChEBI, and Orphanet, participants will
+                        practice key data transformation steps and visualization techniques within the Neo4j graph
+                        database environment, focusing on the most critical aspects of knowledge graph creation.</p>
+                    <!-- line -->
+                    <hr>
+                    <h3 class="section-subheading">The output of this tutorial will be hands-on experience in biomedical
+                        data wrangling and a functional knowledge graph that reveals drug-disease relationships
+                        invisible in traditional tabular formats, complete with <a href="https://neo4j.com/">Neo4j</a>
+                        visualization capabilities and reusable code templates.</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Schedule-->
+    <section class="page-section" id="schedule">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">schedule</h2>
+                <h3 class="section-subheading text-muted">90-minute tutorial</h3>
+            </div>
+            <!-- Tutorial Timeline -->
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                    <ul class="list-timeline list-timeline-primary">
+                        <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column">
+                            <p class="my-0 text-dark flex-fw text-uppercase"><span class="text-inverse op-8">00:00 -
+                                    00:15</span> - Introduction to Knowledge Graphs for Drug Repurposing</p>
+                            <p class="my-0 text-xs text-muted">Challenges in biomedical data integration, advantages of
+                                graph-based representations, overview of public pharmaceutical data sources</p>
+                        </li>
+                        <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column">
+                            <p class="my-0 text-dark flex-fw text-uppercase"><span class="text-inverse op-8">00:15 -
+                                    00:45</span> - Key Techniques for Biomedical Data Wrangling</p>
+                            <p class="my-0 text-xs text-muted">NER for drugs and diseases, relationship extraction from
+                                unstructured text, demonstration of the MedJsonify methodology</p>
+                        </li>
+                        <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column">
+                            <p class="my-0 text-dark flex-fw text-uppercase"><span class="text-inverse op-8">00:45 -
+                                    01:15</span> - Hands-on: Creating and Visualizing Drug-Disease Graphs</p>
+                            <p class="my-0 text-xs text-muted">Loading prepared datasets into Neo4j, writing basic
+                                Cypher queries, visualization techniques, identifying potential drug repurposing
+                                candidates</p>
+                        </li>
+                        <li class="list-timeline-item p-0 pb-3 pb-lg-4 d-flex flex-wrap flex-column">
+                            <p class="my-0 text-dark flex-fw text-uppercase"><span class="text-inverse op-8">01:15 -
+                                    01:30</span> - Q&A and Resources for Continued Learning</p>
+                            <p class="my-0 text-xs text-muted">Access to code templates and datasets, recommended tools
+                                and libraries, community resources and further reading</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Slides-->
+    <section class="page-section" id="slides">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Slides</h2>
+                <h3 class="section-subheading text-muted text-uppercase fw-bold">Download all resources on the <a
+                        class="" href="https://github.com/matpato/ReDrug-KG.git">GitHub</a> repository </h3>
+                <!-- PDF object will be added when slides are ready -->
+                <!-- <object data="slides/ReDrug-KG_slides.pdf" type="application/pdf" width="100%" height="850px">
+            <p>It appears you don't have a PDF plugin for this browser.
+             No biggie... you can <a href="slides/ReDrug-KG_slides.pdf">click here to
+             download the PDF file.</a></p>
+            </object> -->
+                <p class="text-muted">Tutorial slides will be made available later.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Team-->
+    <section class="page-section bg-light" id="team">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
+                <h3 class="section-subheading text-muted"><a class="text-dark"
+                        href="https://github.com/matpato/ReDrug-KG.git"> Lisbon School of Engineering, Portugal</a></h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="assets/img/team/pato.jpg" alt="..." data-toggle="modal"
+                            href="#team_pato" />
+                        <h4>Matilde Pato</h4>
+                        <p class="text-muted">Biomedical Engineering</p>
+                        <a class="btn btn-dark btn-social mx-2" href="https://orcid.org/0000-0001-8976-7651"><i
+                                class="fab fa-orcid"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://github.com/matpato"><i
+                                class="fab fa-github"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/matildepato/"><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="assets/img/team/pereira.jpg" alt="..."
+                            data-toggle="modal" href="#team_pereira" />
+                        <h4>Carolina Pereira</h4>
+                        <p class="text-muted">Computer Science and Engineering</p>
+                        <a class="btn btn-dark btn-social mx-2" href="https://orcid.org/0009-0008-0104-5899"><i
+                                class="fab fa-orcid"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://github.com/crpereir"><i
+                                class="fab fa-github"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/crpereir/"><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="assets/img/team/datia.jpg" alt="..."
+                            data-toggle="modal" href="#team_datia" />
+                        <h4>Nuno Datia</h4>
+                        <p class="text-muted">Computer Science</p>
+                        <a class="btn btn-dark btn-social mx-2" href="https://orcid.org/0000-0003-1600-0227"><i
+                                class="fab fa-orcid"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://github.com/datia"><i
+                                class="fab fa-github"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/nunodatia/"><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!--div class="row">
+                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
+                </div-->
+        </div>
+    </section>
+
+    <!-- Acknowledgements -->
+    <div class="py-5">
+        <div class="container page-section" id="acknowledgements">
+            <div class="row align-items-center">
+                <div class="col-lg-12 mx-auto text-center">
+                    <h2 class="section-heading text-uppercase">acknowledgements</h2>
+                    <p class="large text-muted">This work is supported by UID/04516/NOVA Laboratory for Computer Science
+                        and Informatics (NOVA LINCS), IBEB Research Unit, UID/BIO/00645/2025, LASIGE Research Unit, ref.
+                        UID/00408/2025 with the financial support of Fundação para a Ciência e a Tecnologia, I.P.</p>
+                </div>
+            </div>
+
+            <!-- First row - Horizontal logos (need more width) -->
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-4 col-sm-6 col-8 my-3">
+                    <a href="https://www.fct.pt/index.phtml.pt"><img class="img-fluid img-brand d-block mx-auto"
+                            src="assets/img/logos/fct_h_logo.jpg" alt="..." /></a>
+                </div>
+                <div class="col-md-4 col-sm-6 col-8 my-3">
+                    <a href="https://www.ulisboa.pt"><img class="img-fluid img-brand d-block mx-auto"
+                            src="assets/img/logos/fctunl_logo.png" alt="..." /></a>
+                </div>
+                <div class="col-md-4 col-sm-6 col-8 my-3">
+                    <a href="https://ciencias.ulisboa.pt"><img class="img-fluid img-brand d-block mx-auto"
+                            src="assets/img/logos/novalincs_logo.png" alt="..."
+                            style="height: 130px; width: auto;" /></a>
+                </div>
+            </div>
+
+            <!-- Second row - Vertical logos (can be smaller width) -->
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-2 col-sm-3 col-6 my-3">
+                    <a href="https://www.ulisboa.pt"><img class="img-fluid img-brand d-block mx-auto"
+                            src="assets/img/logos/ulisboa_v_logo.svg" alt="..." /></a>
+                </div>
+                <div class="col-md-2 col-sm-3 col-6 my-3">
+                    <a href="https://ciencias.ulisboa.pt"><img class="img-fluid img-brand d-block mx-auto"
+                            src="assets/img/logos/ciencias_v_logo.svg" alt="..." /></a>
+                </div>
+                <div class="col-md-2 col-sm-3 col-6 my-3">
+                    <a href="https://www.lasige.pt"><img class="img-fluid img-brand d-block mx-auto"
+                            src="assets/img/logos/ibeb_logo.jpg" alt="..." /></a>
+                </div>
+                <div class="col-md-2 col-sm-3 col-6 my-3">
+                    <a href="https://www.lasige.pt"><img class="img-fluid img-brand d-block mx-auto"
+                            src="assets/img/logos/lasige_v_logo.svg" alt="..." /></a>
+                </div>
+            </div>
+
+            <!-- Footer-->
+            <footer class="footer py-4">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-4 text-lg-left">
+                            Copyright &copy; ReDrug-KG
+                            <!-- This script automatically adds the current year to your website footer-->
+                            <!-- (credit: https://updateyourfooter.com/)-->
+                            <script>
+                                document.write(new Date().getFullYear());
+                            </script>
+                        </div>
+                        <div class="col-lg-4 my-3 my-lg-0">
+                            <a class="btn btn-dark btn-social mx-2" href="https://www.isel.pt/en"><i
+                                    class="fas fa-globe"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://github.com/matpato"><i
+                                    class="fab fa-github"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="privacy.html"><i
+                                    class="fas fa-shield-alt"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="terms.html"><i
+                                    class="fas fa-file-contract"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+            <!-- Program Modals-->
+
+            <!-- Modal 4: TEAMS-->
+            <div class="program-modal modal fade" id="team_pato" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg"
+                                alt="Close modal" /></div>
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <div class="modal-body">
+                                        <!-- Project Details Go Here-->
+                                        <h2 class="text-uppercase">About</h2>
+                                        <p class="item-intro text-muted">Matilde Pato</p>
+                                        <img class="img-fluid d-block mx-auto" src="assets/img/team/pato.jpg"
+                                            alt="..." />
+                                        <p class="text-muted">Matilde Pato is currently an adjunct professor at <a
+                                                href="https://www.isel.pt/en">Lisbon School of Engineering (Polytechnic
+                                                Institute of Lisbon)</a> and a Integrated Researcher at <a
+                                                href="https://ibeb.ciencias.ulisboa.pt/en/home-2/">Institute of
+                                                Biophysics and Biomedical Engineering (IBEB)</a> and Colaborator at <a
+                                                href="https://lasige.pt">LASIGE</a> from FCUL. Her teaching includes
+                                            courses in Information Systems, Big Data Engineering, and Large Scale
+                                            Machine Learning, providing her with comprehensive expertise in data
+                                            management and analytics techniques essential for this tutorial.</p>
+                                        <p class="text-muted"> Her current research focuses on developing recommendation
+                                            datasets and systems for the health field, making her uniquely qualified to
+                                            lead this tutorial on knowledge graph creation for drug repurposing. This
+                                            tutorial represents a natural extension of her ongoing work in biomedical
+                                            data integration and her commitment to educational innovation in healthcare
+                                            informatics.</p>
+                                        <ul class="list-inline">
+                                            <li><i class="fa fa-university" aria-hidden="true"></i> ISEL, Politécnico de
+                                                Lisboa (IPL), Portugal</li>
+                                            <li><i class="far fa-envelope"></i> matilde.pato@isel.pt</li>
+                                        </ul>
+                                        <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                            <i class="fas fa-times mr-1"></i>
+                                            Close
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal: TEAMS Carolina-->
+            <div class="program-modal modal fade" id="team_pereira" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg"
+                                alt="Close modal" /></div>
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <div class="modal-body">
+                                        <!-- Project Details Go Here-->
+                                        <h2 class="text-uppercase">About</h2>
+                                        <p class="item-intro text-muted">Ana Carolina Pereira</p>
+                                        <img class="img-fluid d-block mx-auto" src="assets/img/team/pereira.jpg"
+                                            alt="..." />
+                                        <p class="text-muted">Carolina Pereira (BSc in Computer Science and Engineering)
+                                            recently graduated from the Lisbon School of Engineering (ISEL) and will
+                                            begin her Master's degree in Computer Science and Engineering in September
+                                            2025. Throughout her academic journey, she has shown a growing interest in
+                                            the application of data science across various sectors, having contributed
+                                            to research projects focused on biomedical data integration and the curation
+                                            of datasets for clinical and scientific purposes.</p>
+                                        <p class="text-muted">She is driven by the desire to contribute to computational
+                                            solutions that enhance efficiency, accessibility, and quality through the
+                                            responsible and innovative use of data. She is particularly interested in
+                                            methodologies for integrating and harmonizing heterogeneous data and how
+                                            these can support, in particular, biomedical research and clinical
+                                            decision-making.</p>
+                                        <ul class="list-inline">
+                                            <li><i class="fa fa-university" aria-hidden="true"></i> ISEL, Instituto
+                                                Politécnico de Lisboa, Portugal</li>
+                                            <li><i class="far fa-envelope"></i> carolinadpereira18@gmail.com</li>
+                                        </ul>
+                                        <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                            <i class="fas fa-times mr-1"></i>
+                                            Close
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal: TEAMS Nuno-->
+            <div class="program-modal modal fade" id="team_datia" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg"
+                                alt="Close modal" /></div>
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <div class="modal-body">
+                                        <!-- Project Details Go Here-->
+                                        <h2 class="text-uppercase">About</h2>
+                                        <p class="item-intro text-muted">Nuno Datia</p>
+                                        <img class="img-fluid d-block mx-auto" src="assets/img/team/datia.jpg"
+                                            alt="..." />
+                                        <p class="text-muted">Nuno Datia (PhD in Informatics) is an Associate Professor
+                                            at ISEL and a researcher at NOVA LINCS (Laboratory of Computer Science and
+                                            Informatics). He coordinates a Master's programme in Informatics and
+                                            Computer Engineering and leads the "Learning and Knowledge Modelling" group.
+                                            Prof. Datia has supervised and co-supervised numerous undergraduate and
+                                            master theses in Computer Science and Computer Engineering.</p>
+                                        <p class="text-muted">He has also co-organised and participated in several
+                                            Blended Intensive Programmes (BIPs) and Collaborative Online International
+                                            Learning (COIL) initiatives in partnership with European and African
+                                            institutions. His research interests include machine learning,
+                                            spatio-temporal analysis, visualisation and data analytics.</p>
+                                        <ul class="list-inline">
+                                            <li><i class="fa fa-university" aria-hidden="true"></i> ISEL & NOVA LINCS,
+                                                Portugal</li>
+                                            <li><i class="far fa-envelope"></i> nuno.datia@isel.pt</li>
+                                        </ul>
+                                        <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                            <i class="fas fa-times mr-1"></i>
+                                            Close
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Bootstrap core JS-->
+            <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+            <!-- Third party plugin JS-->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+            <!-- Contact form JS-->
+            <script src="assets/mail/jqBootstrapValidation.js"></script>
+            <script src="assets/mail/contact_me.js"></script>
+            <!-- Core theme JS-->
+            <script src="js/scripts.js"></script>
+</body>
+
+</html>

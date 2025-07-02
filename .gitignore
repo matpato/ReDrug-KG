@@ -26,6 +26,56 @@ share/python-wheels/
 *.egg
 MANIFEST
 
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# JupyterLab specific
+.lab/
+.jupyter/
+.jupyterlab-settings/
+.jupyterlab-workspace*
+
+# Neo4j
+*.db
+*.log
+*.rdb
+*.neo4j
+*.hprof
+*/import/
+*/logs/
+*/data/
+*/plugins/
+
+# Python packaging
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# OS files
+.DS_Store
+*.swp
+*~
+
+# Data files (optional)
+# data/
+# *.csv
+# *.tsv
+# *.json
+
+# Logs
+*.log
+
+# VS Code workspace settings
+.vscode/
+
+# Jupyter/Colab notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Colab-specific temp files
+*.nbconvert.ipynb
+
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
