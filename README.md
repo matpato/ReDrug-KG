@@ -43,7 +43,7 @@ Participants will learn practical techniques using Python, public drug databases
 ---
 
 ## 🌐 Tutorial Website
-Visit our tutorial webpage: [https://yourusername.github.io/repository-name](https://yourusername.github.io/repository-name)
+Visit our tutorial webpage: [https://matpato.github.io/ReDrug-KG/](https://matpato.github.io/ReDrug-KG/)
 
 The website source code is located in the `docs/` folder.
 
